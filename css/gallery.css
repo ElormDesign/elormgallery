@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+/*body section starts from here*/
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.gallery{
+	margin: 30px 30px;
+}
+
+.gallery img{
+	transition: 1s;
+	padding: 15px;
+	width: 300px;
+}
+
+.gallery img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+
+/*body section ends here*/
+/******************************************************************************/
